@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+
+    <style>
+
+        .simple {
+            width: 500px;
+            margin: 20px auto;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+
+        }
+
+        .fancy {
+            width: 500px;
+            margin: 20px auto;
+            padding: 50px;
+            border: solid blue 10px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        .relative1 {
+            position: relative;
+            border-color: green;
+            background-color:green ;
+        }
+
+        .relative2 {
+            position: relative;
+            top: -20px;
+            left: 20px;
+            background-color: saddlebrown;
+            width: 500px;
+
+        }
+
+        .fixed {
+            position: fixed;
+            bottom: 100; <!-- this 0 and right 0 go to widow rigth cornor -->
+            right: 100;
+            width: 200px;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+
+<div class="fancy">welcome</div>
+
+<div class="simple"> ruby</div>
+
+<div class="relative1">     This is position relative</div>
+
+<div class="relative2"> This is position relative 2</div>
+
+<div class="fixed"> This is Fixed Element tag</div>
+</body>
+</html>

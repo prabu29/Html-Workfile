@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <style>
+
+        div {
+            background-color: #b2b2b2;
+            background-color: rgba(0, 0, 0, .3);
+        }
+        .style1{
+            background: #466368;
+            background: radial-gradient(#648880, #293f50);
+        }
+
+        .notice-success {
+            background: #67b11c url("tick.png") 20px 50% no-repeat;
+            border: 2px solid #467813;
+            border-radius: 5px;
+            color: #fff;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            padding: 50px 20px 4px 80px;
+        }
+<!--gap between menus
+        li {
+            display: inline-block;
+            margin: 0 20px;
+        }-->
+
+        .navigation ul {
+            font: bold 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-transform: uppercase;
+        }
+        .navigation li {
+            display: block;
+            padding: 12px 20px 10px 20px;
+        }
+        .navigation a {
+            background: #395870;
+            background: linear-gradient(#49708f, #293f50);
+            border-right: 1px solid rgba(0, 0, 0, .3);
+            color: #fff;
+            padding: 12px 20px 10px 20px;
+            text-decoration: none;
+        }
+        .navigation a:hover {
+            background: #314b60;
+            box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+        }
+        .navigation li:first-child a {
+            border-radius: 4px 0 0 4px;
+        }
+        .navigation li:last-child a {
+            border-right: 0;
+            border-radius: 0 4px 4px 0;
+        }
+        img {
+            background: #eaeaed;
+            border: 1px solid #9799a7;
+            float: left;
+            margin: 8px 0 0 20px;
+            padding: 4px;
+        }
+
+    </style>
+</head>
+<body>
+<div>
+    When we use a diagonal gradient on an element that isn’t exactly square, the background gradient will not proceed directly from one corner to the other. Instead, the gradient will identify the absolute center of the element, place anchors in the perpendicular corners from where it should progress, and then move to the general direction of the corner stated within the value. These corners the gradient moves towards are called “magic corners,” as they are not absolute. Eric Meyer has done a
+
+</div>
+
+<div class="style1">
+    <img src="Anand.jpg"/>  When we use a diagonal gradient on an element that isn’t exactly square, the background gradient will not proceed directly from one corner to the other. Instead, the gradient will identify the absolute center of the element, place anchors in the perpendicular corners from where it should progress, and then move to the general direction of the </div>
+
+
+<div class="notice-success">
+    Woo hoo! Congratulations, you did it!
+</div>
+
+
+<ul>
+    <li>Orange</li>
+    <li>Green</li>
+    <li>Blue</li>
+</ul>
+<br/>
+<br/>
+
+<nav class="navigation">
+    <ul>
+        <li><a href="#">Profile</a></li><!--
+    --><li><a href="#">Settings</a></li><!--
+    --><li><a href="#">Notifications</a></li><!--
+    --><li><a href="#">Logout</a></li>
+    </ul>
+</nav>
+
+<!-- <video src="earth.ogv" controls poster="earth-video-screenshot.jpg"></video>    -->
+<iframe src="https://www.google.com/maps/embed?..."></iframe>
+
+
+<input type="date" name="birthday">
+<input type="time" name="game-time">
+<input type="email" name="email-address">
+<input type="url" name="website">
+<input type="number" name="cost">
+<input type="tel" name="phone-number">
+</body>
+</html>
